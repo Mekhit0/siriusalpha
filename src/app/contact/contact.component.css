@@ -1,0 +1,59 @@
+.box {
+    border-radius   : 50px;
+    border          : 1px solid gray;
+    width           : 80%;
+    height          : auto;
+    margin          : 10%;
+    background-color: rgba(49, 46, 46, 0.281);
+    box-shadow      : 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+    position        : relative;
+    cursor          : pointer;
+    transition      : all 0.5s cubic-bezier(.25, .8, .25, 1);
+}
+
+.box:hover {
+    border-top-left-radius   : 10px;
+    border-bottom-left-radius: 10px;
+    animation-name           : example;
+    animation-duration       : 0.25s;
+    border                   : 1px solid greenyellow;
+    border-left              : 8px solid red;
+
+    box-shadow: 0 14px 28px rgba(0, 255, 34, 0.25), 0 10px 10px rgba(0, 255, 55, 0.22);
+}
+
+h2 {
+    color     : whitesmoke;
+    text-align: center;
+}
+
+.facebook {
+    text-align: center;
+    cursor    : pointer;
+    transition: 600ms;
+    width     : 100%;
+}
+
+
+p {
+    color     : whitesmoke;
+    font-size : 22px;
+    cursor    : pointer;
+    transition: 600ms;
+}
+
+p:hover {
+    color      : greenyellow;
+    text-shadow: 1px 2px rgba(255, 68, 0, 0.658);
+}
+
+button {
+    margin-bottom: 2%;
+    cursor       : pointer;
+    transition   : 700ms;
+}
+
+button:hover {
+    box-shadow: 1px 2px rgba(30, 255, 0, 0.637);
+
+}
